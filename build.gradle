@@ -1,3 +1,5 @@
+
+
 plugins{
 id 'war'
 }
@@ -12,6 +14,8 @@ task copyToLib(type: Copy) {
         }
     }
 }
+
+
 
 //Add to task stage that Heroku to prepare deployment
 task stage {
